@@ -1,0 +1,35 @@
+{
+  "name": "@d3x0r/dekcore",
+  "version": "0.1.0",
+  "description": "Dekware Heroku deploy",
+  "engines-unused": {
+    "node": "17.x"
+  },
+  "main": "void-firstrun.js",
+  "scripts": {
+    "start": "node void-firstrun.js",
+    "test": "node test.js",
+    "link": "npm link @d3x0r/brainboard @d3x0r/flatland @d3x0r/popups jsox sack.vfs"
+  },
+  "dependencies": {
+    "@d3x0r/brainboard": "latest",
+    "@d3x0r/flatland": "latest",
+    "@d3x0r/popups": "latest",
+    "isolated-vm": "^5.0.3",
+    "jsox": "latest",
+    "sack.vfs": "latest"
+  },
+  "devDependencies": {
+    "@rollup/plugin-node-resolve": "^11.0.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d3x0r/dekcore.js.git"
+  },
+  "keywords": [
+    "dekware",
+    "sack.vfs",
+    "operting system"
+  ],
+  "license": "MIT"
+}

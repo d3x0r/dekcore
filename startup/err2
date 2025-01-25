@@ -1,0 +1,24 @@
+script 1: true
+script 2: false
+vm.runincontext : Promise { <pending> }
+wait for w1?
+Starting worker 4
+(node:76352) ExperimentalWarning: vm.USE_MAIN_CONTEXT_DEFAULT_LOADER is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+message: { op: 'log', f: [ 'textScript 2', true ] }
+node:internal/event_target:1101
+  process.nextTick(() => { throw err; });
+                           ^
+
+Error [ERR_UNHANDLED_ERROR]: Unhandled error. ({})
+    at Worker.emit (node:events:502:17)
+    at [kOnErrorMessage] (node:internal/worker:326:10)
+    at [kOnMessage] (node:internal/worker:337:37)
+    at MessagePort.<anonymous> (node:internal/worker:232:57)
+    at [nodejs.internal.kHybridDispatch] (node:internal/event_target:827:20)
+    at MessagePort.<anonymous> (node:internal/per_context/messageport:23:28) {
+  code: 'ERR_UNHANDLED_ERROR',
+  context: {}
+}
+
+Node.js v23.5.0

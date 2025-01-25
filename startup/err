@@ -1,0 +1,867 @@
+
+M:\javascript\dekcore4.os\startup>node --experimental-vm-modules --import=sack.vfs/import void-firstrun.mjs 
+Trace: Options: sack.vfs.Sqlite {} 5 undefined
+    at new DbStorage (M:\javascript\vfs\native\object-storage.cjs:85:11)
+    at new ObjectStorage (M:\javascript\vfs\native\object-storage.cjs:173:21)
+    at file:///M:/javascript/dekcore4.os/lib/file-storage/file_cluster.mjs:16:23
+    at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
+    at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
+    at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
+Fc? [class FileCluster] { Utf8ArrayToStr: [Function (anonymous)] }
+AppRoot is sentience right? M:/javascript/dekcore4.os/lib/Sentience
+Set rootObjectSet(1)....
+Setting root container mode(2)....
+Creating the void....
+Setting root container mode(2)....
+Trace:  Newo maybe isn't an entity? <ref *2> Entity {
+  within: <ref *1> Entity {
+    within: [Circular *1],
+    attached_to: Map(0) {},
+    config: { hasSocket: false },
+    contains: Map(1) {
+      'v4701NMXWDC_iOJfA7k0Z1cMef1KGBQhZxrojaWj7TM=' => [Circular *2]
+    },
+    created_by: [Circular *1],
+    created: [ [Circular *1], [Circular *2] ],
+    owner: null,
+    loaded: false,
+    has_state: false,
+    state: null,
+    name: 'The Void',
+    description: null,
+    command: null,
+    permissions: { allow_file_system: true },
+    child: null,
+    vol: null,
+    thread: null,
+    watchers: Map(0) {},
+    scripts: { code: [], index: 0, push: [Function: push] },
+    _module: {
+      filename: 'internal',
+      src: null,
+      source: 'this',
+      file: 'memory://',
+      parent: null,
+      paths: [Array],
+      exports: {},
+      loaded: true,
+      rawData: '',
+      includes: []
+    },
+    desc: 'Glistening transparent black clouds swirl in the dark.',
+    save_: undefined,
+    saving: false
+  },
+  attached_to: Map(0) {},
+  config: { hasSocket: false },
+  contains: Map(0) {},
+  created_by: <ref *1> Entity {
+    within: [Circular *1],
+    attached_to: Map(0) {},
+    config: { hasSocket: false },
+    contains: Map(1) {
+      'v4701NMXWDC_iOJfA7k0Z1cMef1KGBQhZxrojaWj7TM=' => [Circular *2]
+    },
+    created_by: [Circular *1],
+    created: [ [Circular *1], [Circular *2] ],
+    owner: null,
+    loaded: false,
+    has_state: false,
+    state: null,
+    name: 'The Void',
+    description: null,
+    command: null,
+    permissions: { allow_file_system: true },
+    child: null,
+    vol: null,
+    thread: null,
+    watchers: Map(0) {},
+    scripts: { code: [], index: 0, push: [Function: push] },
+    _module: {
+      filename: 'internal',
+      src: null,
+      source: 'this',
+      file: 'memory://',
+      parent: null,
+      paths: [Array],
+      exports: {},
+      loaded: true,
+      rawData: '',
+      includes: []
+    },
+    desc: 'Glistening transparent black clouds swirl in the dark.',
+    save_: undefined,
+    saving: false
+  },
+  created: [],
+  owner: null,
+  loaded: false,
+  has_state: false,
+  state: null,
+  name: 'MOOSE',
+  description: null,
+  command: null,
+  permissions: { allow_file_system: true },
+  child: null,
+  vol: null,
+  thread: null,
+  watchers: Map(0) {},
+  scripts: { code: [], index: 0, push: [Function: push] },
+  _module: {
+    filename: 'internal',
+    src: null,
+    source: 'this',
+    file: 'memory://',
+    parent: null,
+    paths: [ 'M:/javascript/dekcore4.os/lib/Entity/..' ],
+    exports: {},
+    loaded: true,
+    rawData: '',
+    includes: []
+  },
+  desc: 'Master Operator of System Entites.',
+  save_: undefined
+}
+    at file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:764:13
+    at finishCreate (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:468:5)
+    at makeEntity (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:402:2)
+    at Entity.create (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:763:4)
+    at file:///M:/javascript/dekcore4.os/startup/void-firstrun.mjs:47:6
+Setting root container mode(2)....
+Doing wake... does it not go?
+Didn't get a socket? how do we wake to use pipes?
+Invoke waking an object with a startup code...
+16:25:31.012|E77000001A7C~Worker Module: [Object: null prototype] {
+  dirname: 'M:\\javascript\\dekcore4.os\\lib\\Sentience',
+  filename: 'M:\\javascript\\dekcore4.os\\lib\\Sentience\\sandboxInit2.ivm.mjs',
+  resolve: [Function: resolve],
+  url: 'file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs'
+}
+16:25:31.012|E77000001A7C~worker init global: <ref *1> Object [global] {
+  global: [Circular *1],
+  clearImmediate: [Function: clearImmediate],
+  setImmediate: [Function: setImmediate] {
+    [Symbol(nodejs.util.promisify.custom)]: [Getter]
+  },
+  clearInterval: [Function: clearInterval],
+  clearTimeout: [Function: clearTimeout],
+  setInterval: [Function: setInterval],
+  setTimeout: [Function: setTimeout] {
+    [Symbol(nodejs.util.promisify.custom)]: [Getter]
+  },
+  queueMicrotask: [Function: queueMicrotask],
+  structuredClone: [Getter/Setter],
+  atob: [Getter/Setter],
+  btoa: [Getter/Setter],
+  performance: [Getter/Setter],
+  fetch: [Function: fetch],
+  navigator: [Getter],
+  crypto: [Getter]
+}
+16:25:31.012|E77000001A7C~RUNNING? v22.13.0
+16:25:31.014|E77000001A7C~hello world
+16:25:31.014|E77000001A7C~running VM with sandbox prerun... "v4701NMXWDC_iOJfA7k0Z1cMef1KGBQhZxrojaWj7TM="
+16:25:31.014|E77000001A7C~running content in new module? (init) true
+16:25:31.014|E77000001A7C~Init Completed? [
+  'global',    'log',
+  'require',   'module',
+  'exports',   'process',
+  '__dirname', 'Λ'
+]
+16:25:31.014|E77000001A7C~module resulted: Reference {} undefined
+16:25:31.014|E77000001A7C~hello world(2)
+16:25:31.014|E77000001A7C~--------Init should be completed - and logged?!
+16:25:31.014|E77000001A7C~linker:Specifier: ../lib/Sentience/sandboxPrerun.ivm.mjs ../lib/Sentience/sandboxPrerun.ivm.mjs
+16:25:31.014|E77000001A7C~specifier works? ../lib/Sentience/sandboxPrerun.ivm.mjs
+16:25:31.016|E77000001A7C~running content in new module? sandboxPrerun.ivm.mjs true
+16:25:31.016|E77000001A7C~linker:Specifier: sack.vfs ../lib/Sentience/sack.vfs
+16:25:31.017|E77000001A7C~loading: M:/javascript/dekcore4.os/node_modules/sack.vfs/vfs_ivm.mjs
+16:25:31.017|E77000001A7C~running content in new module? vfs_ivm.mjs true
+16:25:31.017|E77000001A7C~linker:Specifier: ./sack-jsox.mjs M:/javascript/dekcore4.os/node_modules/sack.vfs/./sack-jsox.mjs
+16:25:31.017|E77000001A7C~specifier works? M:/javascript/dekcore4.os/node_modules/sack.vfs/./sack-jsox.mjs
+16:25:31.017|E77000001A7C~running content in new module? sack-jsox.mjs true
+16:25:31.018|E77000001A7C~Run result: Promise { <pending> }
+16:25:31.018|E77000001A7C~linker:Specifier: ./object-storage.mjs M:/javascript/dekcore4.os/node_modules/sack.vfs/././object-storage.mjs
+16:25:31.018|E77000001A7C~specifier works? M:/javascript/dekcore4.os/node_modules/sack.vfs/././object-storage.mjs
+16:25:31.018|E77000001A7C~running content in new module? object-storage.mjs true
+16:25:31.019|E77000001A7C~Run result: Promise { <pending> }
+16:25:31.019|E77000001A7C~linker:Specifier: ./object-storage-cb.mjs M:/javascript/dekcore4.os/node_modules/sack.vfs/./././object-storage-cb.mjs
+16:25:31.019|E77000001A7C~specifier works? M:/javascript/dekcore4.os/node_modules/sack.vfs/./././object-storage-cb.mjs
+16:25:31.019|E77000001A7C~running content in new module? object-storage-cb.mjs true
+16:25:31.019|E77000001A7C~Run result: Promise { <pending> }
+16:25:31.019|E77000001A7C~Run result: Promise { <pending> }
+16:25:31.019|E77000001A7C~File result is: Promise { <pending> }
+16:25:31.019|E77000001A7C~Run result: Promise { <pending> }
+16:25:31.019|E77000001A7C~Sack-jsox initializing..
+16:25:31.019|E77000001A7C~module resulted: Reference {} undefined
+16:25:31.019|E77000001A7C~ivm linker module is: Module {}
+16:25:31.019|E77000001A7C~module resulted: Reference {} undefined
+16:25:31.019|E77000001A7C~ivm linker module is: Module {}
+16:25:31.019|E77000001A7C~module resulted: Reference {} undefined
+16:25:31.019|E77000001A7C~ivm linker module is: Module {}
+16:25:31.019|E77000001A7C~This is overridden require! ./build/RelWithDebInfo/sack_vfs.node
+16:25:31.020|E77000001A7C~IVMRquire : (this callback is outside of context) ./build/RelWithDebInfo/sack_vfs.node
+16:25:31.020|E77000001A7C~specifier works? M:/javascript/dekcore4.os/node_modules/sack.vfs/./build/RelWithDebInfo/sack_vfs.node
+16:25:31.020|E77000001A7C~*** Load native module: M:/javascript/dekcore4.os/node_modules/sack.vfs/./build/RelWithDebInfo/sack_vfs.node
+16:25:31.020|E77000001A7C~Loaded!
+16:25:31.020|E77000001A7C~Isolated module, no cleanup hook(yet)
+16:25:31.020|E77000001A7C~ivmrequire module is: Dereference {}
+16:25:31.021|E77000001A7C~Should have modulefilled in... object object object Error
+    at globalThis.require ((init):26:96)
+    at includeNative (vfs_ivm.mjs:98:18)
+    at vfs_ivm.mjs:127:1
+16:25:31.021|E77000001A7C~Sack Loaded here: [
+  'Δ',        'Λ',             'Thread',
+  'Sqlite',   'ODBC',          'DB',
+  'ComPort',  'JSOX',          'JSON',
+  'JSON6',    'VESL',          'SaltyRNG',
+  'Task',     'ObjectStorage', 'FileMonitor',
+  'system',   'Config',        'Text',
+  'registry', 'Keyboard',      'Mouse',
+  'sound',    'Systray',       'WebSocket',
+  'HTTPS',    'HTTP',          'Network',
+  'TLS',      'SSH',           'import',
+  'memDump',  'log',           'u8xor',
+  'b64xor',   'id',            'Id',
+  'File',     'Volume',        'loadComplete',
+  'sigint'
+]
+16:25:31.021|E77000001A7C~[
+  'global',    'log',
+  'require',   'module',
+  'exports',   'process',
+  '__dirname', 'Λ'
+]
+16:25:31.021|E77000001A7C~sack is now: [
+  'Δ',        'Λ',             'Thread',
+  'Sqlite',   'ODBC',          'DB',
+  'ComPort',  'JSOX',          'JSON',
+  'JSON6',    'VESL',          'SaltyRNG',
+  'Task',     'ObjectStorage', 'FileMonitor',
+  'system',   'Config',        'Text',
+  'registry', 'Keyboard',      'Mouse',
+  'sound',    'Systray',       'WebSocket',
+  'HTTPS',    'HTTP',          'Network',
+  'TLS',      'SSH',           'import',
+  'memDump',  'log',           'u8xor',
+  'b64xor',   'id',            'Id',
+  'File',     'Volume',        'loadComplete',
+  'sigint'
+]
+16:25:31.021|E77000001A7C~module resulted: Reference {} undefined
+16:25:31.022|E77000001A7C~Error
+    at doLog (sandboxPrerun.ivm.mjs:74:25)
+    at sandboxPrerun.ivm.mjs:27:1
+16:25:31.022|E77000001A7C~sandboxPrerun:(2)global this? 
+		global:
+,
+		log:function log(),
+		require:function require(),
+		module:
+			exports:
+				Δ:function Δ(),
+				Λ:function Λ(),
+				Thread:function Thread(),
+				Sqlite:function Sqlite(),
+				ODBC:function ODBC(),
+				DB:function DB(),
+				ComPort:function ComPort(),
+				JSOX:
+					parse:function parse(),
+					setFromPrototypeMap:function setFromPrototypeMap(),
+					escape:function escape(),
+					begin:function begin(),
+					Ref:function Ref(),
+					fromProtoType:
+,
+					reset:function reset(),
+					DateNS:function DateNS(),
+					defineClass:function defineClass(),
+					registerToJSOX:function registerToJSOX(),
+					updateContext:function updateContext(),
+					toJSOX:function toJSOX(),
+					registerFromJSOX:function registerFromJSOX(),
+					fromJSOX:function fromJSOX(),
+					registerToFrom:function registerToFrom(),
+					addType:function addType(),
+					stringifierActive:null,
+					stringifier:function stringifier(),
+					stringify:function stringify(),
+,
+				JSON:
+					parse:func
+16:25:31.022|E77000001A7C~tion parse(),
+
+16:25:31.022|E77000001A7C~sandboxPrerun:					stringify:function stringify(),
+					escape:function escape(),
+					begin:function begin(),
+,
+				JSON6:
+					parse:function parse(),
+					stringify:function stringify(),
+					escape:function escape(),
+					begin:function begin(),
+,
+				VESL:
+					parse:function parse(),
+,
+				SaltyRNG:function SaltyRNG(),
+				Task:function Task(),
+				ObjectStorage:function ObjectStorage(),
+				FileMonitor:function FileMonitor(),
+				system:
+					enableThreadFileSystem:function enableThreadFileSystem(),
+					allowSpawn:function allowSpawn(),
+					disallowSpawn:function disallowSpawn(),
+					openMemory:function openMemory(),
+					logMemory:function logMemory(),
+					debugMemory:function debugMemory(),
+					createMemory:function createMemory(),
+					dumpRegisteredNames:function dumpRegisteredNames(),
+					reboot:function reboot(),
+					dumpMemory:function dumpMemory(),
+					testCritSec:function testCritSec(),
+					enableExitSignal:function enableExitSignal(),
+					hideCursor:function hideCursor(),
+					isEle
+16:25:31.022|E77000001A7C~vated:function
+16:25:31.022|E77000001A7C~sandboxPrerun: isElevated(),
+					triggerLogin:function triggerLogin(),
+					setShell:function setShell(),
+					disableTaskManager:function disableTaskManager(),
+,
+				Config:function Config(),
+				Text:function Text(),
+				registry:
+					get:function get(),
+					set:function set(),
+,
+				Keyboard:function Keyboard(),
+				Mouse:function Mouse(),
+				sound:
+					play:function play(),
+					load:function load(),
+,
+				Systray:
+					set:function set(),
+					on:function on(),
+,
+				WebSocket:
+					readyStates:
+						OPEN:1,
+						CLOSED:3,
+						CLOSING:2,
+						CONNECTING:0,
+						INITIALIZING:-1,
+						LISTENING:4,
+,
+					Thread:
+						post:function post(),
+						accept:function accept(),
+,
+					ssh2ws:function ssh2ws(),
+					Server:function Server(),
+					Client:function Client(),
+,
+				HTTPS:
+					get:function get(),
+,
+				HTTP:
+					get:function get(),
+,
+				Network:
+					UDP:function UDP(),
+					TCP:function TCP(),
+					ICMP:
+						ping:function ping(),
+						nameOf:function nameOf(),
+,
+					Address:function
+16:25:31.022|E77000001A7C~ Address(),
+,
+
+16:25:31.022|E77000001A7C~sandboxPrerun:				TLS:
+					seed:function seed(),
+					genkey:function genkey(),
+					gencert:function gencert(),
+					genreq:function genreq(),
+					pubkey:function pubkey(),
+					signreq:function signreq(),
+					validate:function validate(),
+					expiration:function expiration(),
+					certToString:function certToString(),
+					hosts:function hosts(),
+,
+				SSH:function SSH(),
+				import:
+					forceNextModule:false,
+					force:function force(),
+					forget:function forget(),
+					modules:
+,
+,
+				memDump:function memDump(),
+				log:function log(),
+				u8xor:function u8xor(),
+				b64xor:function b64xor(),
+				id:function id(),
+				Id:function Id(),
+				File:
+					SeekSet:0,
+					SeekCurrent:1,
+					SeekEnd:2,
+					delete:function delete(),
+					unlink:function unlink(),
+					rm:function rm(),
+,
+				Volume:function Volume(),
+				loadComplete:function loadComplete(),
+				sigint:function sigint(),
+				ObjectStorageSync:function ObjectStorageSync(),
+,
+,
+		exports:
+,
+		process:
+			env:
+				PATH:,
+,
+			on:function 
+16:25:31.022|E77000001A7C~on(),
+,
+		__di
+16:25:31.022|E77000001A7C~sandboxPrerun:rname:.,
+		Λ:v4701NMXWDC_iOJfA7k0Z1cMef1KGBQhZxrojaWj7TM=,
+
+16:25:31.023|E77000001A7C~Error
+    at doLog (sandboxPrerun.ivm.mjs:74:25)
+    at sandboxPrerun.ivm.mjs:1213:1
+16:25:31.023|E77000001A7C~sandboxPrerun:globalThis: 
+		global:
+			Λ:v4701NMXWDC_iOJfA7k0Z1cMef1KGBQhZxrojaWj7TM=,
+			entity:
+				Λ:v4701NMXWDC_iOJfA7k0Z1cMef1KGBQhZxrojaWj7TM=,
+				watched:false,
+				post:function post(),
+				postGetter:function postGetter(),
+				drop:function drop(),
+				enter:function enter(),
+				leave:function leave(),
+				escape:function escape(),
+				store:function store(),
+				grab:function grab(),
+				hold:function hold(),
+				cache:
+					real:<getter>,
+					near:
+						invalidate:function invalidate(),
+						displaced:function displaced(),
+						placed:function placed(),
+						store:function store(),
+						lose:function lose(),
+						joined:function joined(),
+						part:function part(),
+						attached:function attached(),
+						detached:function detached(),
+						created:function created(),
+,
+					within:null,
+,
+				attach:function attach(),
+				detach:function detach(),
+				save:function save(),
+				enable:function enable(),
+				disable:function disable(),
+				name:<getter>,
+				description:<getter>,
+				con
+16:25:31.023|E77000001A7C~tents:<getter>
+16:25:31.023|E77000001A7C~sandboxPrerun:,
+				container:<getter>,
+				within:<getter>,
+				holding:<getter>,
+				nearObjects:<getter>,
+				idGen:function idGen(),
+				run:function run(),
+				wake:function wake(),
+				require:function require(),
+				idMan:
+					ID:function ID(),
+,
+				ignore:function ignore(),
+				watch:function watch(),
+,
+			wsThread:
+				post:function post(),
+				accept:function accept(),
+,
+			waiting:
+,
+			post:function post(),
+			run:function run(),
+			postGetter:function postGetter(),
+			_process:
+				stdout:undefined,
+				stdin:undefined,
+				x:not process,
+,
+			create:function create(),
+			leave:function leave(),
+			enter:function enter(),
+			grab:function grab(),
+			hold:function hold(),
+			has:function has(),
+			drop:function drop(),
+			store:function store(),
+			global:(cyclic),
+			scripts:
+				code:
+,
+				index:0,
+				push:function push(),
+,
+			_timers:null,
+			now:<getter>,
+			name:<getter>,
+			desc:<getter>,
+			description:<getter>,
+			holding:<getter>,
+			container:<getter>,
+			near:<getter>,
+			exits:<ge
+16:25:31.023|E77000001A7C~tter>,
+			cont
+16:25:31.023|E77000001A7C~sandboxPrerun:ains:<getter>,
+			io:
+				output:null,
+				addInterface:function addInterface(),
+				getInterface:function getInterface(),
+				send:function send(),
+,
+			events_:
+,
+			on:function on(),
+			off:function off(),
+			addListener:function addListener(),
+			emit_:function emit_(),
+			emit:function emit(),
+			ing:function ing(),
+			setTimeout:function setTimeout(),
+			setInterval:function setInterval(),
+			setImmediate:function setImmediate(),
+			getObjects:function getObjects(),
+			clearTimeout:function clearTimeout(),
+			clearImmediate:function clearImmediate(),
+			clearInterval:null,
+			permissions:
+,
+			config:
+				run:
+					Λ:null,
+,
+,
+			removeListener:function removeListener(),
+			removeAllListeners:function removeAllListeners(),
+,
+		log:function log(),
+		module:
+			exports:
+				Δ:function Δ(),
+				Λ:function Λ(),
+				Thread:function Thread(),
+				Sqlite:function Sqlite(),
+				ODBC:function ODBC(),
+				DB:function DB(),
+				ComPort:function ComPort(),
+				JSOX:
+					parse:function parse(),
+					s
+16:25:31.023|E77000001A7C~etFromPrototyp
+16:25:31.023|E77000001A7C~sandboxPrerun:eMap:function setFromPrototypeMap(),
+					escape:function escape(),
+					begin:function begin(),
+					Ref:function Ref(),
+					fromProtoType:
+,
+					reset:function reset(),
+					DateNS:function DateNS(),
+					defineClass:function defineClass(),
+					registerToJSOX:function registerToJSOX(),
+					updateContext:function updateContext(),
+					toJSOX:function toJSOX(),
+					registerFromJSOX:function registerFromJSOX(),
+					fromJSOX:function fromJSOX(),
+					registerToFrom:function registerToFrom(),
+					addType:function addType(),
+					stringifierActive:null,
+					stringifier:function stringifier(),
+					stringify:function stringify(),
+,
+				JSON:
+					parse:function parse(),
+					stringify:function stringify(),
+					escape:function escape(),
+					begin:function begin(),
+,
+				JSON6:
+					parse:function parse(),
+					stringify:function stringify(),
+					escape:function escape(),
+					begin:function begin(),
+,
+				VESL:
+					parse:function parse(),
+,
+				SaltyRNG:function SaltyRNG(),
+				Task:functi
+16:25:31.023|E77000001A7C~on Task(),
+			
+16:25:31.023|E77000001A7C~sandboxPrerun:	ObjectStorage:function ObjectStorage(),
+				FileMonitor:function FileMonitor(),
+				system:
+					enableThreadFileSystem:function enableThreadFileSystem(),
+					allowSpawn:function allowSpawn(),
+					disallowSpawn:function disallowSpawn(),
+					openMemory:function openMemory(),
+					logMemory:function logMemory(),
+					debugMemory:function debugMemory(),
+					createMemory:function createMemory(),
+					dumpRegisteredNames:function dumpRegisteredNames(),
+					reboot:function reboot(),
+					dumpMemory:function dumpMemory(),
+					testCritSec:function testCritSec(),
+					enableExitSignal:function enableExitSignal(),
+					hideCursor:function hideCursor(),
+					isElevated:function isElevated(),
+					triggerLogin:function triggerLogin(),
+					setShell:function setShell(),
+					disableTaskManager:function disableTaskManager(),
+,
+				Config:function Config(),
+				Text:function Text(),
+				registry:
+					get:function get(),
+					set:function set(),
+,
+				Keyboard:function Keyboard(),
+				Mouse:function Mou
+16:25:31.023|E77000001A7C~se(),
+				soun
+16:25:31.023|E77000001A7C~sandboxPrerun:d:
+					play:function play(),
+					load:function load(),
+,
+				Systray:
+					set:function set(),
+					on:function on(),
+,
+				WebSocket:
+					readyStates:
+						OPEN:1,
+						CLOSED:3,
+						CLOSING:2,
+						CONNECTING:0,
+						INITIALIZING:-1,
+						LISTENING:4,
+,
+					Thread:
+						post:function post(),
+						accept:function accept(),
+,
+					ssh2ws:function ssh2ws(),
+					Server:function Server(),
+					Client:function Client(),
+,
+				HTTPS:
+					get:function get(),
+,
+				HTTP:
+					get:function get(),
+,
+				Network:
+					UDP:function UDP(),
+					TCP:function TCP(),
+					ICMP:
+						ping:function ping(),
+						nameOf:function nameOf(),
+,
+					Address:function Address(),
+,
+				TLS:
+					seed:function seed(),
+					genkey:function genkey(),
+					gencert:function gencert(),
+					genreq:function genreq(),
+					pubkey:function pubkey(),
+					signreq:function signreq(),
+					validate:function validate(),
+					expiration:function expiration(),
+					certToString:function certToString(),
+					hosts:funct
+16:25:31.023|E77000001A7C~ion hosts(),
+,
+16:25:31.023|E77000001A7C~sandboxPrerun:
+				SSH:function SSH(),
+				import:
+					forceNextModule:false,
+					force:function force(),
+					forget:function forget(),
+					modules:
+,
+,
+				memDump:function memDump(),
+				log:function log(),
+				u8xor:function u8xor(),
+				b64xor:function b64xor(),
+				id:function id(),
+				Id:function Id(),
+				File:
+					SeekSet:0,
+					SeekCurrent:1,
+					SeekEnd:2,
+					delete:function delete(),
+					unlink:function unlink(),
+					rm:function rm(),
+,
+				Volume:function Volume(),
+				loadComplete:function loadComplete(),
+				sigint:function sigint(),
+				ObjectStorageSync:function ObjectStorageSync(),
+,
+,
+		exports:
+,
+		__dirname:.,
+		Λ:v4701NMXWDC_iOJfA7k0Z1cMef1KGBQhZxrojaWj7TM=,
+		entity:
+			Λ:v4701NMXWDC_iOJfA7k0Z1cMef1KGBQhZxrojaWj7TM=,
+			watched:false,
+			post:function post(),
+			postGetter:function postGetter(),
+			drop:function drop(),
+			enter:function enter(),
+			leave:function leave(),
+			escape:function escape(),
+			store:function store(),
+			grab:function grab(),
+			hold:function hold()
+16:25:31.023|E77000001A7C~,
+			cache:
+		
+16:25:31.023|E77000001A7C~sandboxPrerun:		real:<getter>,
+				near:
+					invalidate:function invalidate(),
+					displaced:function displaced(),
+					placed:function placed(),
+					store:function store(),
+					lose:function lose(),
+					joined:function joined(),
+					part:function part(),
+					attached:function attached(),
+					detached:function detached(),
+					created:function created(),
+,
+				within:null,
+,
+			attach:function attach(),
+			detach:function detach(),
+			save:function save(),
+			enable:function enable(),
+			disable:function disable(),
+			name:<getter>,
+			description:<getter>,
+			contents:<getter>,
+			container:<getter>,
+			within:<getter>,
+			holding:<getter>,
+			nearObjects:<getter>,
+			idGen:function idGen(),
+			run:function run(),
+			wake:function wake(),
+			require:function require(),
+			idMan:
+				ID:function ID(),
+,
+			ignore:function ignore(),
+			watch:function watch(),
+,
+		wsThread:
+			post:function post(),
+			accept:function accept(),
+,
+		waiting:
+,
+		post:function post(),
+		run:function run(),
+		postGetter:fun
+16:25:31.023|E77000001A7C~ction postGett
+16:25:31.023|E77000001A7C~sandboxPrerun:er(),
+		_process:
+			stdout:undefined,
+			stdin:undefined,
+			x:not process,
+,
+		create:function create(),
+		leave:function leave(),
+		enter:function enter(),
+		grab:function grab(),
+		hold:function hold(),
+		has:function has(),
+		drop:function drop(),
+		store:function store(),
+		scripts:
+			code:
+,
+			index:0,
+			push:function push(),
+,
+		_timers:null,
+		now:<getter>,
+		name:<getter>,
+		desc:<getter>,
+		description:<getter>,
+		holding:<getter>,
+		container:<getter>,
+		near:<getter>,
+		exits:<getter>,
+		contains:<getter>,
+		io:
+			output:null,
+			addInterface:function addInterface(),
+			getInterface:function getInterface(),
+			send:function send(),
+,
+		events_:
+,
+		on:function on(),
+		off:function off(),
+		addListener:function addListener(),
+		emit_:function emit_(),
+		emit:function emit(),
+		ing:function ing(),
+		setTimeout:function setTimeout(),
+		setInterval:function setInterval(),
+		setImmediate:function setImmediate(),
+		getObjects:function getObjects(),
+		clearTimeout:function clearTimeout
+16:25:31.023|E77000001A7C~(),
+		clearImm
+16:25:31.023|E77000001A7C~sandboxPrerun:ediate:function clearImmediate(),
+		clearInterval:null,
+		permissions:
+,
+		config:
+			run:
+				Λ:null,
+,
+,
+		removeListener:function removeListener(),
+		removeAllListeners:function removeAllListeners(),
+
+16:25:31.023|E77000001A7C~Send to worker parent - but this should be outside myself...
+16:25:31.023|E77000001A7C~Register for event:message
+16:25:31.023|E77000001A7C~module resulted: Reference {} undefined
+16:25:31.023|E77000001A7C~ivm linker module is: Module {}
+16:25:31.023|E77000001A7C~vm ran... and we should be done? Module {}
+Set rootObjectSet(1)....
+^CTerminate batch job (Y/N)? 
