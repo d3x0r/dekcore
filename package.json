@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node void-firstrun.js",
     "test": "node test.js",
-    "link": "npm link @d3x0r/brainboard @d3x0r/flatland @d3x0r/popups jsox sack.vfs"
+    "link": "npm link @d3x0r/brainboard @d3x0r/flatland @d3x0r/popups jsox sack.vfs isolated-vm"
   },
   "dependencies": {
     "@d3x0r/brainboard": "latest",

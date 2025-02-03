@@ -22,20 +22,17 @@ function BigBang() {
 	//console.log( "Config:", JSOX.stringify( config, null, "\t" ) );
 	if( config.run['The Void'] ) {
 		console.log( "System has already been pre-initialized, please startup using void-run.js" );
-		const theVoid = fc.get( config.run['The Void'] ).then( (val)=>{
-			console.log( "What's the value?", val );
-			return val;
-		} );;
-		console.log( "what doe reload get us?", theVoid );
-		//theVoid.map();
-	if(0)
-		Entity.reloadAll().then( ()=>{
-			console.log( "Universe successfully reloaded.")
-			const MOOSE = Entity.create( config.run.MOOSE );
-			process.stdin.pipe( MOOSE.thread.worker.stdin );
-		})
+		const promisedVoid = fc.get( config.run['The Void'] )
+			.then( (theVoid)=>fc.map( theVoid, {id:config.run['The Void']} )	)
+			.then( (theVoid)=>fc.get( config.run["MOOSE"] ) )
+			.then( (MOOSE)=>{
+				console.log( "No resume is available..." );
+				//process.stdin.pipe( MOOSE.thread.worker.stdin );
+				MOOSE.resume()
+			} );
 		return;
 	}
+
 	console.log( "Creating the void....");
 	Entity.create( null, "The Void", "Glistening transparent black clouds swirl in the dark.", (o)=>{
 		//console.log( "Void is null?", o );
@@ -47,9 +44,11 @@ function BigBang() {
 			o.create( "MOOSE", "Master Operator of System Entites.", (o)=>{
 				// o changes here to MOOSE
 				o.saved = true;
+			console.log( "This should save the void with MOOSE in it...", theVoid.contains );
 				theVoid.saved = true;
 				o.saved.then( (id)=>{
 					config.run.MOOSE = id;//o.Λ.toString();
+
 					config.commit().then( ()=>{
 						console.log( "Doing wake... does it not go?" );
 						o.wake().then( (thread)=>{
