@@ -1,0 +1,4 @@
+.git
+*/core/
+node_modules
+npm_debug.log
