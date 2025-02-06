@@ -7,22 +7,318 @@ Trace: Options: sack.vfs.Sqlite {} 5 undefined
     at ModuleJob.run (node:internal/modules/esm/module_job:271:25)
     at async onImport.tracePromise.__proto__ (node:internal/modules/esm/loader:547:26)
     at async asyncRunEntryPointWithESMLoader (node:internal/modules/run_main:116:5)
-AppRoot is sentience right? M:/javascript/dekcore4.os/lib/Sentience
-Resume waiter on init...
 Set rootObjectSet(1)....
-System has already been pre-initialized, please startup using void-run.js
-Trace: Exit event in file cluster
-    at process.<anonymous> (file:///M:/javascript/dekcore4.os/lib/file-storage/file_cluster.mjs:54:13)
-    at process.emit (node:events:524:28)
-    at process._fatalException (node:internal/process/execution:198:19)
-    at throwUnhandledRejectionsMode (node:internal/process/promises:394:5)
-    at processPromiseRejections (node:internal/process/promises:475:17)
-    at process.processTicksAndRejections (node:internal/process/task_queues:106:32)
-file:///M:/javascript/dekcore4.os/startup/void-firstrun.mjs:29
-				process.stdin.pipe( MOOSE.thread.worker.stdin );
-				                                 ^
-
-TypeError: Cannot read properties of null (reading 'worker')
-    at file:///M:/javascript/dekcore4.os/startup/void-firstrun.mjs:29:38
-
-Node.js v22.13.0
+1) Assigning ID to directory ?
+Resume waiter on init...
+Setting root container mode(2)....
+Creating the void....
+Trace: Before PUT
+    at set saved (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:1342:13)
+    at file:///M:/javascript/dekcore4.os/startup/void-firstrun.mjs:40:11
+    at finishCreate (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:469:5)
+    at Object.makeEntity (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:403:2)
+    at BigBang (file:///M:/javascript/dekcore4.os/startup/void-firstrun.mjs:37:9)
+    at resume (file:///M:/javascript/dekcore4.os/lib/config/config.mjs:81:11)
+Setting root container mode(2)....
+Trace: Before PUT
+    at set saved (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:1342:13)
+    at file:///M:/javascript/dekcore4.os/startup/void-firstrun.mjs:46:13
+    at file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:771:13
+    at finishCreate (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:469:5)
+    at makeEntity (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:403:2)
+    at Entity.create (file:///M:/javascript/dekcore4.os/lib/Entity/entity.mjs:764:4)
+    at file:///M:/javascript/dekcore4.os/startup/void-firstrun.mjs:44:6
+Setting root container mode(2)....
+This should save the void with MOOSE in it... <ref *2> Map(1) {
+  'qtl6eB1TUA$kCN09nQgs95Qq$we7Tc4eQqROMSt4iGE=' => Entity {
+    within: <ref *1> Entity {
+      within: [Circular *1],
+      attached_to: Map(0) {},
+      config: [Object],
+      contains: [Circular *2],
+      created_by: [Circular *1],
+      created: [Array],
+      owner: null,
+      loaded: false,
+      has_state: false,
+      state: null,
+      name: 'The Void',
+      description: 'Glistening transparent black clouds swirl in the dark.',
+      command: null,
+      permissions: [Object],
+      child: null,
+      vol: null,
+      thread: null,
+      watchers: Map(0) {},
+      scripts: [Object],
+      _module: [Object],
+      save_: undefined,
+      saving: false
+    },
+    attached_to: Map(0) {},
+    config: { hasSocket: false },
+    contains: Map(0) {},
+    created_by: <ref *1> Entity {
+      within: [Circular *1],
+      attached_to: Map(0) {},
+      config: [Object],
+      contains: [Circular *2],
+      created_by: [Circular *1],
+      created: [Array],
+      owner: null,
+      loaded: false,
+      has_state: false,
+      state: null,
+      name: 'The Void',
+      description: 'Glistening transparent black clouds swirl in the dark.',
+      command: null,
+      permissions: [Object],
+      child: null,
+      vol: null,
+      thread: null,
+      watchers: Map(0) {},
+      scripts: [Object],
+      _module: [Object],
+      save_: undefined,
+      saving: false
+    },
+    created: [],
+    owner: null,
+    loaded: false,
+    has_state: false,
+    state: null,
+    name: 'MOOSE',
+    description: 'Master Operator of System Entites.',
+    command: null,
+    permissions: { allow_file_system: true },
+    child: null,
+    vol: null,
+    thread: null,
+    watchers: Map(0) {},
+    scripts: { code: [], index: 0, push: [Function: push] },
+    _module: {
+      filename: 'internal',
+      src: null,
+      source: 'this',
+      file: 'memory://',
+      parent: null,
+      paths: [Array],
+      exports: {},
+      loaded: true,
+      rawData: '',
+      includes: []
+    },
+    save_: undefined,
+    saving: true
+  }
+}
+Doing wake... does it not go?
+Didn't get a socket? how do we wake to use pipes?
+Invoke waking an object with a startup code...
+05:59:20.501|AF9000011A20~JS(1):Worker Module: [Object: null prototype] {
+  dirname: 'M:\\javascript\\dekcore4.os\\lib\\Sentience',
+  filename: 'M:\\javascript\\dekcore4.os\\lib\\Sentience\\sandboxInit2.ivm.mjs',
+  resolve: [Function: resolve],
+  url: 'file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs'
+}
+05:59:20.501|AF9000011A20~JS(1):worker init global: <ref *1> Object [global] {
+  global: [Circular *1],
+  clearImmediate: [Function: clearImmediate],
+  setImmediate: [Function: setImmediate] {
+    [Symbol(nodejs.util.promisify.custom)]: [Getter]
+  },
+  clearInterval: [Function: clearInterval],
+  clearTimeout: [Function: clearTimeout],
+  setInterval: [Function: setInterval],
+  setTimeout: [Function: setTimeout] {
+    [Symbol(nodejs.util.promisify.custom)]: [Getter]
+  },
+  queueMicrotask: [Function: queueMicrotask],
+  structuredClone: [Getter/Setter],
+  atob: [Getter/Setter],
+  btoa: [Getter/Setter],
+  performance: [Getter/Setter],
+  fetch: [Function: fetch],
+  navigator: [Getter],
+  crypto: [Getter]
+}
+05:59:20.501|AF9000011A20~JS(1):RUNNING? v22.13.0
+05:59:20.503|AF9000011A20~JS(1):hello world
+05:59:20.503|AF9000011A20~JS(1):running content in new module? (init) true
+05:59:20.503|AF9000011A20~JS(1):module state: Module {}
+05:59:20.503|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.504|AF9000011A20~JS(1):Evaluate Sync: Import fails now? (init)
+05:59:20.504|AF9000011A20~JS(1):module resulted: Reference {} undefined
+05:59:20.504|AF9000011A20~JS(1):oldModule? undefined undefined
+05:59:20.504|AF9000011A20~JS(1):running content in new module? sandboxPrerun.ivm.mjs true
+05:59:20.505|AF9000011A20~JS(1):module state: Module {}
+05:59:20.505|AF9000011A20~JS(1):oldModule? Module {} undefined
+05:59:20.505|AF9000011A20~JS(1):linker:Specifier: sack.vfs ../lib/Sentience/sack.vfs [ 'sack.vfs' ]
+05:59:20.505|AF9000011A20~JS(1):looking for: sack.vfs
+05:59:20.505|AF9000011A20~JS(1):running content in new module? vfs_ivm.mjs true
+05:59:20.505|AF9000011A20~JS(1):module state: Module {}
+05:59:20.505|AF9000011A20~JS(1):oldModule? Module {} undefined
+05:59:20.505|AF9000011A20~JS(1):linker:Specifier: ./sack-jsox.mjs M:/javascript/dekcore4.os/node_modules/sack.vfs/./sack-jsox.mjs [
+  './sack-jsox.mjs',
+  './object-storage.mjs',
+  './object-storage-cb.mjs'
+]
+05:59:20.506|AF9000011A20~JS(1):running content in new module? sack-jsox.mjs true
+05:59:20.506|AF9000011A20~JS(1):module state: Module {}
+05:59:20.506|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.506|AF9000011A20~JS(1):oldModule? Module {} undefined
+05:59:20.506|AF9000011A20~JS(1):linker:Specifier: ./object-storage.mjs M:/javascript/dekcore4.os/node_modules/sack.vfs/././object-storage.mjs [
+  './sack-jsox.mjs',
+  './object-storage.mjs',
+  './object-storage-cb.mjs'
+]
+05:59:20.507|AF9000011A20~JS(1):running content in new module? object-storage.mjs true
+05:59:20.507|AF9000011A20~JS(1):module state: Module {}
+05:59:20.507|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.507|AF9000011A20~JS(1):oldModule? Module {} undefined
+05:59:20.508|AF9000011A20~JS(1):linker:Specifier: ./object-storage-cb.mjs M:/javascript/dekcore4.os/node_modules/sack.vfs/./././object-storage-cb.mjs [
+  './sack-jsox.mjs',
+  './object-storage.mjs',
+  './object-storage-cb.mjs'
+]
+05:59:20.508|AF9000011A20~JS(1):running content in new module? object-storage-cb.mjs true
+05:59:20.508|AF9000011A20~JS(1):module state: Module {}
+05:59:20.508|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.508|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.508|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.508|AF9000011A20~JS(1):Evaluate Sync: Import fails now? sack-jsox.mjs
+05:59:20.508|AF9000011A20~JS(1):Sack-jsox initializing..
+05:59:20.508|AF9000011A20~JS(1):module resulted: Reference {} undefined
+05:59:20.508|AF9000011A20~JS(1):module: M:/javascript/dekcore4.os/node_modules/sack.vfs/./sack-jsox.mjs Module { a: 123 }
+05:59:20.508|AF9000011A20~JS(1):Evaluate Sync: Import fails now? object-storage.mjs
+05:59:20.508|AF9000011A20~JS(1):module resulted: Reference {} undefined
+05:59:20.508|AF9000011A20~JS(1):module: M:/javascript/dekcore4.os/node_modules/sack.vfs/././object-storage.mjs Module { a: 123 }
+05:59:20.508|AF9000011A20~JS(1):Evaluate Sync: Import fails now? object-storage-cb.mjs
+05:59:20.508|AF9000011A20~JS(1):module resulted: Reference {} undefined
+05:59:20.508|AF9000011A20~JS(1):module: M:/javascript/dekcore4.os/node_modules/sack.vfs/./././object-storage-cb.mjs Module { a: 123 }
+05:59:20.509|AF9000011A20~JS(1):Evaluate Sync: Import fails now? vfs_ivm.mjs
+05:59:20.509|AF9000011A20~JS(1):This is overridden require! ./build/RelWithDebInfo/sack_vfs.node
+05:59:20.509|AF9000011A20~JS(1):IVMRquire : (this callback is outside of context) ./build/RelWithDebInfo/sack_vfs.node
+05:59:20.509|AF9000011A20~JS(1):specifier works? M:/javascript/dekcore4.os/node_modules/sack.vfs/./build/RelWithDebInfo/sack_vfs.node
+05:59:20.509|AF9000011A20~JS(1):*** Load native module(in context): M:/javascript/dekcore4.os/node_modules/sack.vfs/./build/RelWithDebInfo/sack_vfs.node
+05:59:20.509|AF9000011A20~vfs_module.cc(391):Isolated module, no cleanup hook(yet)
+05:59:20.509|AF9000011A20~JS(1):ivmrequire module is: Dereference {}
+05:59:20.509|AF9000011A20~JS(1):Sack Loaded here: [
+  'Δ',        'Λ',             'Thread',
+  'Sqlite',   'ODBC',          'DB',
+  'ComPort',  'JSOX',          'JSON',
+  'JSON6',    'VESL',          'SaltyRNG',
+  'Task',     'ObjectStorage', 'FileMonitor',
+  'system',   'Config',        'Text',
+  'registry', 'Keyboard',      'Mouse',
+  'sound',    'Systray',       'WebSocket',
+  'HTTPS',    'HTTP',          'Network',
+  'TLS',      'SSH',           'import',
+  'memDump',  'log',           'u8xor',
+  'b64xor',   'id',            'Id',
+  'File',     'Volume',        'loadComplete',
+  'sigint'
+]
+05:59:20.509|AF9000011A20~JS(1):[
+  'global',      'log',
+  'emit',        'require',
+  'requireCode', 'module',
+  'exports',     'process',
+  '__dirname',   'Λ'
+]
+05:59:20.509|AF9000011A20~JS(1):sack is now: [
+  'Δ',        'Λ',             'Thread',
+  'Sqlite',   'ODBC',          'DB',
+  'ComPort',  'JSOX',          'JSON',
+  'JSON6',    'VESL',          'SaltyRNG',
+  'Task',     'ObjectStorage', 'FileMonitor',
+  'system',   'Config',        'Text',
+  'registry', 'Keyboard',      'Mouse',
+  'sound',    'Systray',       'WebSocket',
+  'HTTPS',    'HTTP',          'Network',
+  'TLS',      'SSH',           'import',
+  'memDump',  'log',           'u8xor',
+  'b64xor',   'id',            'Id',
+  'File',     'Volume',        'loadComplete',
+  'sigint'
+]
+05:59:20.509|AF9000011A20~JS(1):JSOX Module could not register require support...
+05:59:20.511|AF9000011A20~JS(1):module resulted: Reference {} undefined
+05:59:20.511|AF9000011A20~JS(1):module: M:/javascript/dekcore4.os/node_modules/sack.vfs/vfs_ivm.mjs Module { a: 123 }
+05:59:20.511|AF9000011A20~JS(1):Evaluate Sync: Import fails now? sandboxPrerun.ivm.mjs
+05:59:20.512|AF9000011A20~JS(1):module resulted: Reference {} undefined
+05:59:20.512|AF9000011A20~JS(1):module: ../lib/Sentience/sandboxPrerun.ivm.mjs Module { a: 123 }
+05:59:20.512|AF9000011A20~JS(1):vm ran... and we should be done? Module { a: 123 }
+ Worker Init finished... resolve that this worker is 'awake'
+storage is shared, not private, get root might leak...
+What? Loading startscript? ./startup.mjs
+Run file in wake... ./startup.mjs
+RunFile:(post) ./startup.mjs
+05:59:20.514|AF9000011A20~JS(1):Error
+    at doLog (sandboxPrerun.ivm.mjs:108:20)
+    at processMessage (sandboxPrerun.ivm.mjs:160:4)
+    at sandboxPrerun.ivm.mjs:135:2
+    at sandboxPrerun.ivm.mjs:90:30
+    at Array.forEach (<anonymous>)
+    at on (sandboxPrerun.ivm.mjs:90:17)
+    at <isolated-vm>:1:1
+05:59:20.514|AF9000011A20~JS(1):sandboxPrerun:Running code with import dynamic:
+05:59:20.514|AF9000011A20~JS(1):running content in new module? ./startup.mjs true
+05:59:20.514|AF9000011A20~JS(1):module state: Module {}
+05:59:20.514|AF9000011A20~JS(1):oldModule? Module {} undefined
+05:59:20.514|AF9000011A20~JS(1):linker:Specifier: ../lib/Sentience/shell.js ../lib/Sentience/shell.js [ '../lib/Sentience/shell.js' ]
+05:59:20.514|AF9000011A20~JS(1):running content in new module? shell.js true
+05:59:20.516|AF9000011A20~JS(1):module state: Module {}
+05:59:20.516|AF9000011A20~JS(1):oldModule? Module {} undefined
+05:59:20.516|AF9000011A20~JS(1):linker:Specifier: sack.vfs/text ../lib/Sentience/sack.vfs/text [
+  'sack.vfs/text',
+  '../../command_stream_filter/command.js',
+  '../../command_stream_filter/label_insert.js'
+]
+05:59:20.516|AF9000011A20~JS(1):looking for: sack.vfs/text
+05:59:20.516|AF9000011A20~JS(1):running content in new module? text.mjs true
+05:59:20.516|AF9000011A20~JS(1):module state: Module {}
+05:59:20.516|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.516|AF9000011A20~JS(1):oldModule? Module {} undefined
+05:59:20.516|AF9000011A20~JS(1):linker:Specifier: ../../command_stream_filter/command.js M:/javascript/dekcore4.os/node_modules/sack.vfs/apps/text/../../command_stream_filter/command.js [
+  'sack.vfs/text',
+  '../../command_stream_filter/command.js',
+  '../../command_stream_filter/label_insert.js'
+]
+05:59:20.517|AF9000011A20~JS(1):looking for: ../../command_stream_filter/command.js
+05:59:20.517|AF9000011A20~JS(1):oldModule? Module {} undefined
+05:59:20.517|AF9000011A20~JS(1):linker:Specifier: ../../command_stream_filter/label_insert.js M:/javascript/dekcore4.os/node_modules/sack.vfs/apps/text/../../command_stream_filter/label_insert.js [
+  'sack.vfs/text',
+  '../../command_stream_filter/command.js',
+  '../../command_stream_filter/label_insert.js'
+]
+05:59:20.517|AF9000011A20~JS(1):looking for: ../../command_stream_filter/label_insert.js
+05:59:20.517|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.517|AF9000011A20~JS(1):Before eval module is: Module {} Promise { <pending> }
+05:59:20.517|AF9000011A20~JS(1):promp: Promise { <pending> }
+05:59:20.517|AF9000011A20~JS(1):instantiate failed: shell.js TypeError: Cannot read properties of undefined (reading './command_stream_filter')
+    at file:///M:/javascript/dekcore4.os/lib/Sentience/nodeUtils.mjs:47:29
+    at findModule (file:///M:/javascript/dekcore4.os/lib/Sentience/nodeUtils.mjs:45:24)
+    at ivmModuleLinker (file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs:290:16)
+    at runScript (file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs:221:23)
+    at ivmRunFile (file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs:265:12)
+    at ivmModuleLinker (file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs:287:11)
+    at runScript (file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs:221:23)
+    at runScript_ext (file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs:187:15)
+05:59:20.517|AF9000011A20~JS(1):instantiate failed: ./startup.mjs TypeError: Cannot set properties of undefined (setting 'a')
+    at file:///M:/javascript/dekcore4.os/lib/Sentience/sandboxInit2.ivm.mjs:266:15
+05:59:20.517|AF9000011A20~JS(1):runScript_ext result: undefined
+05:59:20.517|AF9000011A20~JS(1):Error
+    at doLog (sandboxPrerun.ivm.mjs:108:20)
+    at processMessage (sandboxPrerun.ivm.mjs:197:5)
+    at sandboxPrerun.ivm.mjs:135:2
+    at sandboxPrerun.ivm.mjs:90:30
+    at Array.forEach (<anonymous>)
+    at on (sandboxPrerun.ivm.mjs:90:17)
+    at <isolated-vm>:1:1
+05:59:20.517|AF9000011A20~JS(1):sandboxPrerun:And post sync result. null
+05:59:20.517|AF9000011A20~JS(1):Evaluate Sync: Import fails now? text.mjs
+05:59:20.517|AF9000011A20~JS(1):module resulted: Reference {} undefined
+05:59:20.517|AF9000011A20~JS(1):module: M:/javascript/dekcore4.os/node_modules/sack.vfs/apps/text/text.mjs Module { a: 123 }
+Set rootObjectSet(1)....
+^CTerminate batch job (Y/N)? 
