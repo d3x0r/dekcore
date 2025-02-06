@@ -1,7 +1,7 @@
 
 
 const args = process.argv;
-let startScript = "../../startup/startup.mjs";
+let startScript = "./startup.mjs";
 for( var arg = 2; arg < args.length; args++ ) {
 	if( args[arg][0] == '-' ) {
 		if( args[arg][0] === '-start' ) {

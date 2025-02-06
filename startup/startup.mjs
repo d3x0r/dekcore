@@ -1,14 +1,20 @@
 
 console.log( "build piping.... ", this, globalThis );
 
+import stuff from "../lib/Sentience/shell.js";
+
+console.log( "Can link stuff early?", stuff );
+
 async function buildPiping(For){
       // opens our internal weak parser on the current object.
       // only one of these can work though. 
-    import( "./lib/Sentience/shell.js" ).then( shellFilter=>{
-                               console.log( "Filter doesn't exist?", shellFilter );
-   const shell = shellFilter.Filter( For );
-    import(  './command_stream_filter/strip_newline.js' ).then( (newline)=>{
-      console.log( "So the thing ran, resulted, and we got back the result??", newline)
+	console.log( "Why doesn't import work here??" );
+
+	import( "../lib/Sentience/shell.js" ).then( shellFilter=>{
+		console.log( "Filter doesn't exist?", shellFilter );
+   	const shell = shellFilter.Filter( For );
+		import(  '../command_stream_filter/strip_newline.js' ).then( (newline)=>{
+			console.log( "So the thing ran, resulted, and we got back the result??", newline)
       //require( './command_stream_filter/monitor_filter.js' ).then( monitor=>{
         //var commandFilter = require( './command_stream_filter/command.js');
         //console.log( "And monitor result?", monitor )
@@ -21,14 +27,16 @@ async function buildPiping(For){
        //   console.log( "If the main process did their stdout we'd be gold?");
      //});
     })
-  }).catch(err=>console.log("import Failed:", err));
+  }).catch(err=>console.log("import Failed:", err.message, err.stack ));
 }
 
 await buildPiping(this);  // attach console to 'The Void'
 
 //console.log( "Hello from startup.js" );//, Object.keys(this) );
 
-if( resume ) {
+if( !"resume" in globalThis ) globalThis.resume = false;
+
+if( globalThis.resume ) {
 	console.log( "Okay this a resuming thing so..." );
 }
 else {
@@ -50,6 +58,7 @@ else {
   var auth = null;
   console.log( "------- create services ------------")
   has( "services").catch( ()=>{
+		console.log( "Services starts..." );
     return create( "Services"
         , "Service Directory Manager and authenticator"
         , "services/services/serviceService.js"
@@ -75,6 +84,8 @@ else {
   }).then( ()=>{
     console.log( "Services object already exists...");
   })
+  console.log( "Got all the way to the end of stuff..." );
+	globalThis.resume = true
 }
 //firewall.run(  )
 
