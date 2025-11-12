@@ -1,0 +1,9 @@
+
+{
+	activate : { name: "Activation",
+        		description: "User has accessed this service?"
+        	},
+	create : { name: "Allow Creation",
+        		description: "User has ability to fabricate?"
+        	},
+}
